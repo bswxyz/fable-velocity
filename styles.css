@@ -328,7 +328,7 @@ h2{font-weight:600;font-size:clamp(2rem,5vw,3.4rem);line-height:1.06}
 
 /* ---------- reveals (JS-gated so a CDN failure never hides content) ---------- */
 .js .reveal{opacity:0;transform:translateY(22px)}
-.is-in{opacity:1;transform:none;transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.js .reveal.is-in{opacity:1;transform:none;transition:opacity .7s var(--ease),transform .7s var(--ease)}
 
 /* hero intro — CSS/compositor driven via .loaded */
 .js .hero-title .line>span,.js .hero-title em{transform:translateY(112%);transition:transform .8s var(--ease-snap)}
